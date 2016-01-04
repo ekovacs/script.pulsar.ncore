@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+
+  <category label="General">
+    <setting label="username" type="text" id="username" default="" />
+    <setting label="password" type="text" id="password" option="hidden" default="" />
+  </category>
+  <category label="Filters">
+  </category>
+</settings>
