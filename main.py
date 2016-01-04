@@ -26,8 +26,7 @@ except:
 
 cache = StorageServer.StorageServer("script.pulsar.ncore", 1)
 cache.table_name = "script.pulsar.ncore"
-cache.delete("search_%")
-cache.delete("torrent_%")
+
 
 #This class will handles any incoming request
 class torrentHandler(BaseHTTPRequestHandler):
